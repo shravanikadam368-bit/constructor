@@ -1,0 +1,22 @@
+#1. Default Constructor
+#A constructor that does not take any arguments except self
+class Student:
+    def __init__(self):
+        print("Default Constructor")
+s = Student()
+
+2. Parameterized Constructor
+ A constructor that takes additional arguments along with self.
+
+Example
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+s = Student("Shravani", 18)
+s.display()
