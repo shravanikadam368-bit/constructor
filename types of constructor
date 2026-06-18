@@ -1,0 +1,7 @@
+#A Constructor is a special method in a class that is automatically called when an object is created.
+#In Python, the constructor is written using the __init__() method.
+#simple example
+class Student:
+    def __init__(self):
+        print("Constructor Called")
+s = Student()
